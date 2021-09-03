@@ -5,14 +5,14 @@ app.controller('MainCtrl', function($scope) {
 		text: "<h4><strong class= 'name-index' >MAHFUZ AFTAB</strong> an enthusiastic Software Engineer & Project Coordinator skilled in development, maintaining schedules to ensure customer satisfaction and business revenue. Expertise in coordinating diverse product & developer team to complete the objective.<br></br> Furthermore, a <code>JavaScript</code> enthusiast like to <code><span><</span>Code<span>/></span></code> following the best practices and proven technology to develop understandable, maintainable and robust software with firm experience in problem solving and UI design. <br></br>Finally, I am a fast learner, a strong team player with excellent social skills and an organized, detail-oriented and proactive individual.</h4>"
 	};
 
-	$scope.managerialKeys = ['Primarily responsible for the front end development, different development team coordination & project management', 'Client Communication', 'Resource Planning', 'Requirements Analysis', 'Agile', 'Software Requirement Specification', 'Reporting projects progress to Senior Management'];
+	$scope.managerialKeys = ['Web Application Front End Development', 'Hybrid Mobile Application Development', 'Coordinating Mobile Applications Developer, Web Backend Developer and Web Front End Developer Teams & Project Management', 'Client Requirement Analyzing', 'Agile', 'Providing Software Requirement Specification', 'Reporting Projects Progress to Reporting Manager & Management'];
 
 	$scope.technologyStack = [{
 		head: "Programming Languages",
-		body: "C#, CSS3, HTML5, JavaScript, Shell Scripting, SQL and NO-SQL."
+		body: "JavaScript, Shell Scripting, SQL DB and NO-SQL DB."
 	},{
 		head: "Framework / Libraries",
-		body: "Angular, Express, Mongo, MySQL, Node, React, Ionic, MVC, Bootstrap, Material Design."
+		body: "Angular, Express, Node, React, Ionic, Mongo, MySQL."
 	}];
 
 	$scope.responsibilities = [{
@@ -26,7 +26,7 @@ app.controller('MainCtrl', function($scope) {
       job: "Unit testing using Jasmine/Karma."
     },{
       icon: "fa fa-mobile fa-lg slideanim",
-      job: "Hybrid / Cross Platform Mobile Application development using Ionic Framework."
+      job: "Hybrid Mobile Application Development using Ionic Framework."
     }];
  
     $scope.articles = [{
