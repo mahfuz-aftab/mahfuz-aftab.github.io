@@ -5,19 +5,32 @@ app.controller('MainCtrl', function($scope) {
 		text: "<h4><strong class= 'name-index' >MAHFUZ AFTAB</strong> an enthusiastic Software Engineer & Project Coordinator skilled in development, maintaining schedules to ensure customer satisfaction and business revenue. Expertise in coordinating diverse product & developer team to complete the objective.<br></br> Furthermore, a <code>JavaScript</code> enthusiast like to <code><span><</span>Code<span>/></span></code> following the best practices and proven technology to develop understandable, maintainable and robust software with firm experience in problem solving and UI design. <br></br>Finally, I am a fast learner, a strong team player with excellent social skills and an organized, detail-oriented and proactive individual.</h4>"
 	};
 
-	$scope.managerialKeys = ['Web Application Front End Development', 'Hybrid Mobile Application Development', 'Coordinating Mobile Applications Developer, Web Backend Developer and Web Front End Developer Teams & Project Management', 'Client Requirement Analyzing', 'Agile', 'Providing Software Requirement Specification', 'Reporting Projects Progress to Reporting Manager & Management'];
+	$scope.managerialKeys = ['Experienced in frontend development within the context of full-stack web application development in MEAN/MERN stack.', 'Coordinate multiple developer (web application and Mobile application development) following agile methodology project management', 'Hybrid/Cross Platform Mobile Application Development in Ionic/React Native', 'Reporting Projects Progress to Reporting Manager & Management', 'Client Requirement Analysis and prepare Software Requirement Specification'];
 
 	$scope.technologyStack = [{
-		head: "Programming Languages",
-		body: "JavaScript, Shell Scripting, SQL DB and NO-SQL DB."
-	},{
-		head: "Framework / Libraries",
-		body: "Angular, Express, Node, React, Ionic, Mongo, MySQL."
+		head: "Language",
+		body: "TypeScript, JavaScript, HTML, CSS, SQL, NO-SQL"
+	},
+	{
+		head: "Framework/Libraries",
+		body: "Angular, Ionic, React, React Native, Express, Bootstrap, jQuery, Node.js"
+	},
+	{
+		head: "Database",
+		body: "MySQL, MSSQL, MongodB"
+	},
+	{
+		head: "Cloud Service",
+		body: "AWS (EC2), Google Cloud Platform, Vercel"
+	},
+	{
+		head: "Tools",
+		body: "Git, GitHub, Bitbucket, Postman, Adobe XD, Figma, GIMP, MS Visio, Linux"
 	}];
 
 	$scope.responsibilities = [{
       icon: "fa fa-tasks fa-lg slideanim",
-      job: "Coordinating different developer & operation teams."
+      job: "Experienced in frontend development within the context of full-stack web application development in MEAN/MERN stack."
     },{
       icon: "fa fa-html5 fa-lg slideanim",
       job: "Web application development using AngularJS, ReactJS, ExpressJS, Node.js and MongoDB with cutting edge HTML5 and CSS3 techniques."
@@ -26,7 +39,7 @@ app.controller('MainCtrl', function($scope) {
       job: "Unit testing using Jasmine/Karma."
     },{
       icon: "fa fa-mobile fa-lg slideanim",
-      job: "Hybrid Mobile Application Development using Ionic Framework."
+      job: "Hybrid/Cross Platform Mobile Application Development in React Native/Ionic Framework."
     }];
  
     $scope.articles = [{
